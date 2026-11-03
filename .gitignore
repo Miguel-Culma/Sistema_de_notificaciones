@@ -1,0 +1,46 @@
+
+# ==============================
+# BACKEND - .NET
+# ==============================
+
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
+
+# Resultados de pruebas
+**/TestResults/
+**/coverage/
+*.coverage
+*.coveragexml
+
+# ==============================
+# FRONTEND - REACT / NODE
+# ==============================
+
+**/node_modules/
+**/dist/
+
+# ==============================
+# VARIABLES DE ENTORNO
+# ==============================
+
+**/.env
+**/.env.*
+!**/.env.example
+
+# ==============================
+# CONFIGURACIONES LOCALES
+# ==============================
+
+**/appsettings.Development.json
+**/secrets*.json
+
+# ==============================
+# SISTEMA OPERATIVO
+# ==============================
+
+.DS_Store
+Thumbs.db
+desktop.ini
