@@ -48,7 +48,7 @@ export default function Notifications() {
                   <td>{n.recipient ?? '—'}</td>
                   <td>
                     <span className={`badge badge-sm ${n.ok ? 'badge-success' : 'badge-error'}`}>
-                      {n.ok ? 'Enviado' : 'Con error'}
+                      {n.ok ? 'Enviado' : 'error'}
                     </span>
                   </td>
                   <td className="max-w-md text-sm opacity-80">{n.message ?? n.result ?? '—'}</td>
