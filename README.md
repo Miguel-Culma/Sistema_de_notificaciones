@@ -125,6 +125,11 @@ dotnet user-secrets set "JwtSettings:SecretKey" "CLAVE_JWT"
 dotnet user-secrets set "EmailSettings:Username" "CORREO_GMAIL"
 
 dotnet user-secrets set "EmailSettings:Password" "CONTRASEÑA_DE_APLICACION"
+
+dotnet user-secrets set "EmailSettings:Username" "USUARIO_GMAIL"
+
+dotnet user-secrets set "FrontendUrl" "URL FRONTEND"
+
 ```
 
 Los valores de ejemplo deben reemplazarse por las credenciales correspondientes.
