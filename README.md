@@ -122,7 +122,7 @@ dotnet user-secrets set "ConnectionStrings:MongoDbUri" "CADENA_DE_CONEXION"
 
 dotnet user-secrets set "JwtSettings:SecretKey" "CLAVE_JWT"
 
-dotnet user-secrets set "EmailSettings:Username" "CORREO_GMAIL"
+dotnet user-secrets set "EmailSettings:SenderEmail" "CORREO_GMAIL"
 
 dotnet user-secrets set "EmailSettings:Password" "CONTRASEÑA_DE_APLICACION"
 
